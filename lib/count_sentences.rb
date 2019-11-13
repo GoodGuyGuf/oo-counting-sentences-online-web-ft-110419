@@ -19,7 +19,7 @@ class String
   if count_sentences = 0 || 3
     self.split.count
   else
-    count_sentences.count
+    count_sentences.strip.count
   end
 end
 end
