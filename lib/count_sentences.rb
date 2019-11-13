@@ -20,7 +20,7 @@ class String
     self.split.count
 
     else
-
+      self.split(1..5, 6..8, 9..15)
   end
 end
 end
