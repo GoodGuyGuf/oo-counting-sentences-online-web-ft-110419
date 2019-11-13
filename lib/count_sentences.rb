@@ -18,6 +18,8 @@ class String
 
   if count_sentences = 0
     self.split.count
+  else
+    self.count.end_with?(".", "!", "?")
   end
 end
 end
