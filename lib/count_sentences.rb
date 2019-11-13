@@ -20,7 +20,7 @@ class String
     self.split.count
 
     else
-
+self.split(/[.?!]/).reject {|string| string.empty?}
   end
 end
 end
