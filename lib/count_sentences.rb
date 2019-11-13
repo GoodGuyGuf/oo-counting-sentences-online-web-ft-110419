@@ -20,7 +20,7 @@ class String
     self.split.count
 
     else
-    self.split(/\?|\.|!/).count)
+    (self.split(/\?|\.|!/).count)
   end
 end
 end
