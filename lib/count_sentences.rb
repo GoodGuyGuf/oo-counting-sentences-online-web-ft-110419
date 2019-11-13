@@ -16,10 +16,5 @@ self.end_with?("!")
   end
 
   def count_sentences
-  if   self.split('.', '!', '?')
-  else
-  self.count
-  end
-  end
-
+  self.split.count
 end
