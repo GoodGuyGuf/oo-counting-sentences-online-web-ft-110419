@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences(complex_string)
-  if complex_string == 4
+  if self.include?(complex_string)
     self.count
   else
     self.split.count
