@@ -20,5 +20,6 @@ class String
   else
     self.count
   end
+  end
 
 end
