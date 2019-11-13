@@ -15,12 +15,7 @@ class String
   end
 
   def count_sentences
+    self.scan(/\w+[.?!]/).length
+    end
 
-  if count_sentences = 0 || 3
-    self.split.count
-
-    else
-      
-  end
-end
 end
