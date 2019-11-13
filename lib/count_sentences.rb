@@ -14,12 +14,19 @@ class String
   self.end_with?("!")
   end
 
-  def count_sentences
-  if count_sentences.count = 4
-    self.split.count
-  else
+  def count_sentences(complex_string)
+  if complex_string == 4
     self.count
+  else
+    self.split.count
   end
-  end
+end
 
+
+
+
+
+
+
+  
 end
