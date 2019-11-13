@@ -20,7 +20,7 @@ class String
     self.split.count
 
     else
-    complex_string.count_sentences = 4
+    (complex_string.split(/\?|\.|!/).size)
   end
 end
 end
