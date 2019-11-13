@@ -18,8 +18,9 @@ class String
 
   if count_sentences = 0 || 3
     self.split.count
-  else
-
+    
+    else
+    self.split(/\?|\.|!/).size)
   end
 end
 end
