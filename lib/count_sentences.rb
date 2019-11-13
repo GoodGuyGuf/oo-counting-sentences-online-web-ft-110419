@@ -16,7 +16,7 @@ class String
 
   def count_sentences
 
-  if count_sentences = 0 || 3
+  if count_sentences = 4
     self.split.count
   else
 
