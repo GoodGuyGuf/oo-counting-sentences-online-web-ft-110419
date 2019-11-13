@@ -15,7 +15,10 @@ class String
   end
 
   def count_sentences
-  self.split.count
+  if count_sentences.count = 4
+    self.split.count
+  else
+    self.count
   end
 
 end
