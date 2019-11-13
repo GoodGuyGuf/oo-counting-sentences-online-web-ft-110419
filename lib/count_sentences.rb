@@ -4,7 +4,7 @@ class String
 
   def sentence?(sentence)
     sentence.sentence?
-    
+
   end
 
   def question?
