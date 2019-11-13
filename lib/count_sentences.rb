@@ -19,5 +19,7 @@ class String
     self.each do |word|
       self << sentence
     end
+  end
+end
 
 end
