@@ -15,8 +15,10 @@ class String
   end
 
   def count_sentences(complex_string)
-  self.split.count
+  if self.split.count
+  else
   complex_string.split.count
   end
+end
 
 end
