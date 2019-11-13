@@ -19,6 +19,5 @@ class String
       self << sentence
     end
   end
-end
 
 end
