@@ -20,7 +20,7 @@ class String
     self.split.count
 
     else
-    (complex_string.split(/\?|\.|!/).count)
+
   end
 end
 end
