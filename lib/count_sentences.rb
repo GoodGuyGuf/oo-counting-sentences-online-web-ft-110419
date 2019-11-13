@@ -19,7 +19,7 @@ class String
   if count_sentences = 4
     self.split.count
   else
-
+count_sentences.count
   end
 end
 end
