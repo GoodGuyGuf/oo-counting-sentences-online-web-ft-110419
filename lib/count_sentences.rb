@@ -15,7 +15,8 @@ class String
   end
 
   def count_sentences
-    binding.pry
-  end
-  
+  self.each do |sentence|
+    self.each do |word|
+      self << sentence
+
 end
