@@ -16,9 +16,6 @@ class String
 
   def count_sentences(complex_string)
   if self.split.count
-  else
-  complex_string.split.count
   end
-end
 
 end
