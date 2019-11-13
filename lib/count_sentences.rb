@@ -15,9 +15,5 @@ class String
   end
 
   def count_sentences
-  self.each do |sentence|
-      self << sentence
-    end
-  end
 
 end
