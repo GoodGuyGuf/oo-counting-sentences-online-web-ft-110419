@@ -19,3 +19,5 @@ class String
     end
 
 end
+
+self.split.length
