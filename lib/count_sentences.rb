@@ -20,4 +20,5 @@ class String
 
 end
 
-self.split.length
+#Or you can use
+#self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
